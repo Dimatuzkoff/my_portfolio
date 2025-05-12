@@ -1,5 +1,8 @@
 <script setup>
 import { ref } from "vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 const Menu = ref([
   { name: "Services", href: "#services" },
   { name: "About Me", href: "#about" },
@@ -21,7 +24,9 @@ const ScrollToSection = (href) => {
   <header
     class="flex justify-between items-center p-6 bg-opacity-50 relative z-20"
   >
-    <div class="text-white text-3xl font-bold">LOGO</div>
+    <div class="text-white text-3xl font-bold" data-aos="zoom-in-down">
+      LOGO
+    </div>
     <!-- mobile toggle button -->
     <div class="md:hidden z-30">
       <button
@@ -53,6 +58,7 @@ const ScrollToSection = (href) => {
         'fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex md:justify-between md:flex-row',
         isMenuOpen ? 'block' : 'hidden',
       ]"
+      data-aos="zoom-in-down"
     >
       <ul
         class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0"
