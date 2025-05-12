@@ -28,7 +28,7 @@ const ScrollToSection = (href) => {
       LOGO
     </div>
     <!-- mobile toggle button -->
-    <div class="md:hidden z-30">
+    <div class="md:hidden z-30" data-aos="zoom-in-down">
       <button
         type="button"
         class="block text-secondary focus:outline-none"
@@ -58,7 +58,6 @@ const ScrollToSection = (href) => {
         'fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex md:justify-between md:flex-row',
         isMenuOpen ? 'block' : 'hidden',
       ]"
-      data-aos="zoom-in-down"
     >
       <ul
         class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0"
