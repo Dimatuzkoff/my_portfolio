@@ -19,7 +19,7 @@ AOS.init();
       <div
         class="grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto"
       >
-        <div class="lg:py-6" data-aos="zoom-in-up">
+        <div class="lg:py-6" data-aos="zoom-in-right">
           <div class="text-center lg:text-left">
             <h1
               class="pt-4 bg-clip-text text-transparent bg-gradient-to-r from-yellow to-blue font-bold text-4xl md:text-5xl lg:text-6xl"
@@ -94,7 +94,7 @@ AOS.init();
             </button>
           </div>
         </div>
-        <div class="lg:h-full md:flex">
+        <div class="lg:h-full md:flex" data-aos="zoom-in-left">
           <div
             class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative"
           >
