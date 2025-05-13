@@ -94,12 +94,16 @@ AOS.init();
             </button>
           </div>
         </div>
-        <div class="lg:h-full md:flex" data-aos="zoom-in-left">
+        <div
+          class="lg:h-full md:flex"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <div
             class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative"
           >
             <div
-              class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl"
+              class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-blue to-yellow blur-2xl"
             ></div>
             <div
               class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary"
