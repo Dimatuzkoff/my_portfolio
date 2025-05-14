@@ -97,7 +97,8 @@ AOS.init();
         <div
           class="lg:h-full md:flex"
           data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos-duration="500"
+          data-aos-once="true"
         >
           <div
             class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative"
