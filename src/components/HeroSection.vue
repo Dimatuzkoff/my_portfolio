@@ -110,7 +110,7 @@ AOS.init();
               class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary"
             >
               <img
-                src="../../public/my_photo.jpg"
+                src="/my_photo.jpg"
                 alt="Hero pic"
                 width="500"
                 height="auto"
