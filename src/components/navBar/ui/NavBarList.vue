@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import NavBarItem from "./NavBarItem.vue";
-import { menuItems } from "./menuItems";
+import { menuItems } from "../menuItems";
 const Menu = ref(menuItems);
 
 const emit = defineEmits(["closeBurgerMenu"]);
