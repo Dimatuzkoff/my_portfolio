@@ -1,6 +1,6 @@
 <script setup>
 import { defineAsyncComponent } from "vue";
-const NavBar = defineAsyncComponent(() => import("@/components/navbar"));
+const NavBar = defineAsyncComponent(() => import("@/components/navBar"));
 const HeroSection = defineAsyncComponent(() =>
   import("@/components/HeroSection.vue")
 );
