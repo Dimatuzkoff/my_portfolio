@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import NavBarItem from "./NavBarItem.vue";
 import { menuItems } from "../libs/constants/menuItems";
-const Menu = ref(menuItems);
+const menu = ref(menuItems);
 
 const emit = defineEmits(["closeBurgerMenu"]);
 
@@ -24,7 +24,7 @@ const ScrollToSection = (href) => {
     <ul
       class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0"
     >
-      <li v-for="item in Menu" :key="item.name">
+      <li v-for="item in menu" :key="item.name">
         <NavBarItem @tabClick="ScrollToSection" :tab="item" />
       </li>
     </ul>

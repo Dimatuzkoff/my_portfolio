@@ -7,6 +7,9 @@ const HeroSection = defineAsyncComponent(() =>
 const ServicesSection = defineAsyncComponent(() =>
   import("@/components/servicesSection")
 );
+const AboutSection = defineAsyncComponent(() =>
+  import("@/components/aboutSection")
+);
 </script>
 
 <template>
@@ -14,6 +17,7 @@ const ServicesSection = defineAsyncComponent(() =>
     <NavBar />
     <HeroSection />
     <ServicesSection />
+    <AboutSection />
   </div>
 </template>
 
