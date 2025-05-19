@@ -2,7 +2,7 @@
 import { defineAsyncComponent } from "vue";
 const NavBar = defineAsyncComponent(() => import("@/components/navBar"));
 const HeroSection = defineAsyncComponent(() =>
-  import("@/components/HeroSection.vue")
+  import("@/components/heroSection")
 );
 const ServicesSection = defineAsyncComponent(() =>
   import("@/components/servicesSection")
