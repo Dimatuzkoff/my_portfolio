@@ -5,7 +5,7 @@ const HeroSection = defineAsyncComponent(() =>
   import("@/components/HeroSection.vue")
 );
 const ServicesSection = defineAsyncComponent(() =>
-  import("@/components/ServicesSection.vue")
+  import("@/components/servicesSection")
 );
 </script>
 
