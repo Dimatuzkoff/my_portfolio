@@ -2,14 +2,14 @@ export const education = [
   {
     id: 1,
     school: "ДонНТУ",
-    program: "Software Engineer",
-    year: "2022",
+    program: "Бакалавр в галузі економіка і підприємництво",
+    year: "2010",
   },
   {
     id: 2,
     school: "ДонНТУ",
-    program: "Software Engineer",
-    year: "2020",
+    program: "Спеціаліст в галузі економічна кібернетика",
+    year: "2011",
   },
   {
     id: 3,

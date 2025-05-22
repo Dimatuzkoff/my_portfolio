@@ -1,5 +1,8 @@
 <script setup>
 import { ref } from "vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 const services = ref([
   {
     id: 1,
@@ -47,7 +50,7 @@ const services = ref([
 </script>
 <template>
   <section class="text-white mt-20" id="services">
-    <div class="px-4 xl:pl-16">
+    <div class="px-4 xl:pl-16" data-aos="flip-right">
       <h2 class="text-4xl font-bold text-white mb-4">My services</h2>
     </div>
     <div

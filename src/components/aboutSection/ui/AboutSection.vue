@@ -1,5 +1,5 @@
 <script setup>
-import AboutSectionEducationList from "./AboutSectionEducationList.vue";
+import AboutSectionEducation from "./AboutSectionEducation.vue";
 </script>
 <template>
   <section class="text-white mt-18" id="about">
@@ -8,6 +8,8 @@ import AboutSectionEducationList from "./AboutSectionEducationList.vue";
         class="h-24 w-64 bg-gradient-to-br from-primary via-secondary blur-2xl to-[#570cac] opacity-20"
       ></div>
     </div>
-    <AboutSectionEducationList />
+    <div class="flex flex-col md:flex md:justify-between md:flex-row">
+      <AboutSectionEducation />
+    </div>
   </section>
 </template>

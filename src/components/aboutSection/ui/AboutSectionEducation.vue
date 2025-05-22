@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import { education } from "../libs/constants/education";
 import AboutSectionEducationItem from "./AboutSectionEducationItem.vue";
+import AboutSectionEducationMe from "./AboutSectionEducationMe.vue";
 const myEducation = ref(education);
 </script>
 <template>
@@ -16,5 +17,6 @@ const myEducation = ref(education);
         </template>
       </div>
     </div>
+    <AboutSectionEducationMe />
   </div>
 </template>

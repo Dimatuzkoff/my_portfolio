@@ -1,4 +1,7 @@
 <script setup>
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 const props = defineProps({
   education: {
     id: Number,
@@ -11,6 +14,7 @@ const props = defineProps({
 <template>
   <div
     class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
+    data-aos="zoom-in-down"
   >
     <div class="w-1/4">
       <img
