@@ -22,7 +22,11 @@ const myServices = ref(services);
       >
         <div class="mx-auto h-24 text-center xl:h-28 xl:w-28">
           <div>
-            <img :src="service.icon" alt="service icon" />
+            <img
+              class="mx-auto h-24 text-center xl:h-28 xl:w-28"
+              :src="service.icon"
+              alt="service icon"
+            />
           </div>
         </div>
         <div class="text-center">

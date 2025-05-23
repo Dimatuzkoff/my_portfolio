@@ -34,4 +34,11 @@ export const services = [
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!",
   },
+  {
+    id: 5,
+    icon: "/vite.svg",
+    name: "Vite",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!",
+  },
 ];
