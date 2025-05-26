@@ -32,7 +32,20 @@ const mySkills = ref(skills);
             </h4>
             <h3 class="text-2xl font-bold text-white">{{ skill.width }}</h3>
           </div>
+          <div class="mt-2 h-1 w-full bg-[131d30] rounded-full">
+            <div
+              class="h-1 rounded-full bg-primary"
+              :style="`width :${skill.width}`"
+            ></div>
+          </div>
         </div>
+      </div>
+      <div class="" data-aos="flip-left">
+        <h2
+          class="text-4xl font-bold text-white text-left mb-8 md:text-center md:mt-0 mt-8"
+        >
+          Мій досвід
+        </h2>
       </div>
     </div>
   </section>

@@ -15,7 +15,7 @@ export const skills = [
     width: "30%",
   },
   {
-    id: 1,
+    id: 4,
     label: "NODE",
     width: "10%",
   },
