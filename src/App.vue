@@ -10,6 +10,9 @@ const ServicesSection = defineAsyncComponent(() =>
 const AboutSection = defineAsyncComponent(() =>
   import("@/components/aboutSection")
 );
+const ExperienceAndSkills = defineAsyncComponent(() =>
+  import("@/components/experienceAndSkills")
+);
 </script>
 
 <template>
@@ -18,6 +21,7 @@ const AboutSection = defineAsyncComponent(() =>
     <HeroSection />
     <ServicesSection />
     <AboutSection />
+    <ExperienceAndSkills />
   </div>
 </template>
 
