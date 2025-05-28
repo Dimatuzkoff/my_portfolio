@@ -1,7 +1,9 @@
 <script setup>
 import { ref } from "vue";
-import { skills } from "../libs/skills";
+import { skills } from "../libs/constants/skills";
+import { experiences } from "../libs/constants/experiences";
 const mySkills = ref(skills);
+const myExperiences = ref(experiences);
 </script>
 
 <template>
@@ -17,7 +19,10 @@ const mySkills = ref(skills);
     <div
       class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:px-16"
     >
-      <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full w-[80%]">
+      <div
+        class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full w-[80%]"
+        data-aos="flip-right"
+      >
         <h2 class="text-4xl font-bold text-white text-left mb-4">
           Рівень
           <span
@@ -46,6 +51,9 @@ const mySkills = ref(skills);
         >
           Мій досвід
         </h2>
+        <div class="space-y-8 py-8" data-aos="fade-left">
+          <div class="" v-for="elem in myExperiences" :key="elem.id"></div>
+        </div>
       </div>
     </div>
   </section>
