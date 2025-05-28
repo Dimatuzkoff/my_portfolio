@@ -37,7 +37,7 @@ const myExperiences = ref(experiences);
             </h4>
             <h3 class="text-2xl font-bold text-white">{{ skill.width }}</h3>
           </div>
-          <div class="mt-2 h-1 w-full bg-[131d30] rounded-full">
+          <div class="mt-2 h-1 w-full bg-[#131d30] rounded-full">
             <div
               class="h-1 rounded-full bg-primary"
               :style="`width :${skill.width}`"
