@@ -51,8 +51,29 @@ const myExperiences = ref(experiences);
         >
           Мій досвід
         </h2>
-        <div class="space-y-8 py-8" data-aos="fade-left">
-          <div class="" v-for="elem in myExperiences" :key="elem.id"></div>
+        <div class="space-y-8 py-8">
+          <div
+            class="flex items-center rounded-xl p-4 bg-[#111a3e] shadow-lg border border-[#1f1641]"
+            v-for="elem in myExperiences"
+            :key="elem.id"
+            data-aos="fade-left"
+          >
+            <div class="w-1/4">
+              <img
+                src="https://img.icons8.com/ios-filled/100/ffffff/lawyer.png"
+                alt="icon"
+              />
+            </div>
+            <div class="w-3/4 pl-4">
+              <h3
+                class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+              >
+                {{ elem.role }}
+              </h3>
+              <p class="text-white">{{ elem.company }}</p>
+              <p class="text-white">{{ elem.date }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
