@@ -30,8 +30,13 @@ const myExperiences = ref(experiences);
             >навичок</span
           >
         </h2>
-        <div class="mt-8" v-for="skill in mySkills" :key="skill.id">
-          <div class="flex items-end justify-between" data-aos="fade-right">
+        <div
+          class="mt-8"
+          v-for="skill in mySkills"
+          :key="skill.id"
+          data-aos="fade-right"
+        >
+          <div class="flex items-end justify-between">
             <h4 class="font-semibold uppercase text-white">
               {{ skill.label }}
             </h4>
@@ -41,11 +46,12 @@ const myExperiences = ref(experiences);
             <div
               class="h-1 rounded-full bg-primary"
               :style="`width :${skill.width}`"
+              data-aos="fade-right"
             ></div>
           </div>
         </div>
       </div>
-      <div class="" data-aos="flip-left">
+      <div data-aos="flip-right">
         <h2
           class="text-4xl font-bold text-white text-left mb-8 md:text-center md:mt-0 mt-8"
         >
